@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <world name="wrecks">
+         <include>
+             <uri>model://seafloor</uri>
+             <name>seafloor</name>
+             <pose>0 0 -12.3 0 0 0</pose>
+         </include>
+
+        <!-- <include>
+          <uri>model://flat_fish</uri>
+          <pose>0 0 0 0 0 -0.785</pose>
+        </include> -->
+
+        <include>
+          <uri>model://jequitaia_ferry</uri>
+          <pose>-40 -50 -12.4 0 0 -0.785</pose>
+        </include>
+
+        <include>
+            <name>galleon</name>
+            <uri>model://galleon</uri>
+            <pose>0 -15 -12 0 0 -1.57</pose>
+        </include>
+
+        <include>
+            <uri>model://car</uri>
+            <name>car</name>
+            <pose>-20 20 -11.9 0 0 0</pose>
+        </include>
+
+        <include>
+            <name>mega_structure</name>
+            <uri>model://mega_structure</uri>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+    </world>
+</sdf>
