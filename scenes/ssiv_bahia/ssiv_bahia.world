@@ -6,12 +6,6 @@
             <pose>47.36 113.10 -12.3 0 0 4.29</pose>
         </include>
 
-        <!-- <include>
-            <uri>model://car</uri>
-            <name>car</name>
-            <pose>-20 20 -11.9 0 0 0</pose>
-        </include> -->
-
         <include>
             <uri>model://seafloor</uri>
             <name>seafloor</name>
